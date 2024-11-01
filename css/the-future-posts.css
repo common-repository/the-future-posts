@@ -1,0 +1,414 @@
+
+/* --- THE FUTURE POSTS --- THEME: DEFAULT ------------------------ start --- */
+
+.gl-col {
+  padding: 0 1rem 2rem 1rem;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.the_future_posts {
+  /* customize your font */
+  /* font-family: 'Helvetica','Arial','sans-serif'; */
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+}
+
+.the_future_posts_main {
+  overflow: hidden;
+  border: 1px solid #dddddd;
+}
+
+.the_future_posts_column_left {
+  float: left;
+  width: 50%;
+}
+
+.the_future_posts_column_right {
+  float: left;
+  width: 50%;
+}
+
+.the_future_posts_no_posts {
+  font-size: 11pt;
+  letter-spacing: 1pt;
+  text-transform: uppercase;
+}
+
+.the_future_posts a {
+  text-decoration: none;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.the_future_posts_image {
+  position: relative;
+  width: 100%;
+}
+
+.the_future_posts_image:hover .the_future_posts_image_overlay {
+  opacity: 0.2;
+}
+
+.the_future_posts_image:hover .the_future_posts_image_overlay_icon {
+  opacity: 1;
+}
+
+.the_future_posts_image_overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: #000000;
+  cursor: pointer;
+}
+
+.the_future_posts_image_overlay_icon {
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  cursor: pointer;
+}
+
+.the_future_posts_image_overlay_icon:before {
+  font-family: "the-future-posts";
+  font-size: 35pt;
+  content: "\e851";
+}
+
+.the_future_posts_image_fill {
+  object-fit: cover;
+}
+
+.the_future_posts_image_aspect_ratio_box {
+  height: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.the_future_posts_image_aspect_ratio_box_inside {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.the_future_posts_image_fix {
+  width: 100%;
+  display: block;
+  vertical-align: bottom;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.the_future_posts_title {
+  font-size: 15pt;
+  line-height: 16pt;
+  font-weight: bold;
+  letter-spacing: normal;
+  margin: 15px 15px 0px 15px;
+  text-transform: uppercase;
+}
+
+.the_future_posts_title::before {
+  content: "";
+}
+
+.the_future_posts_title::after {
+  content: "";
+}
+
+.the_future_posts_field {
+  font-size: 12pt;
+  line-height: 13pt;
+  margin: 10px 0px 0px 0px;
+}
+
+.the_future_posts_field::before {
+  content: "";
+}
+
+.the_future_posts_field::after {
+  content: "";
+}
+
+.the_future_posts_excerpt {
+  font-size: 12pt;
+  line-height: 13pt;
+  margin: 10px 15px 0px 15px;
+  color: #aaaaaa;
+}
+
+.the_future_posts_excerpt::before {
+  content: "";
+}
+
+.the_future_posts_excerpt::after {
+  content: "";
+}
+
+.the_future_posts_author {
+  font-size: 10pt;
+  line-height: 11pt;
+  font-weight: bold;
+  letter-spacing: 0.5pt;
+  text-transform: uppercase;
+  margin: 10px 15px 0px 15px;
+}
+
+.the_future_posts_author::before {
+  content: "";
+}
+
+.the_future_posts_author::after {
+  content: "";
+}
+
+.the_future_posts_date {
+  font-size: 10pt;
+  line-height: 11pt;
+  letter-spacing: 0.5pt;
+  text-transform: uppercase;
+  margin: 5px 15px 15px 15px;
+}
+
+.the_future_posts_date::before {
+  content: "";
+}
+
+.the_future_posts_date::after {
+  content: "";
+}
+
+.the_future_posts_categories {
+  font-size: 10pt;
+  line-height: 11pt;
+  letter-spacing: 0.5pt;
+  text-transform: uppercase;
+  margin: 5px 15px 15px 15px;
+}
+
+.the_future_posts_categories::before {
+  content: "";
+}
+
+.the_future_posts_categories::after {
+  content: "";
+}
+
+/* -------------------------------------------------------------------------- */
+
+.the_future_posts_button {
+  margin: 20px 15px 20px 15px;
+}
+
+.the_future_posts_button_btn {
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 2px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  background: #baa37e;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.the_future_posts_button_btn:hover {
+  background: #ff8c00;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.the_future_posts_button_btn:active {
+  background: #000000;
+}
+
+.the_future_posts_button_btn:visited {
+  color: #ffffff;
+}
+
+/* --- THE FUTURE POSTS --- THEME: DEFAULT -------------------------- end --- */
+
+
+
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+
+
+
+/* --- THE FUTURE POSTS --- THEME: tfp_rounded_corners ------------ start --- */
+
+.tfp_rounded_corners_gl-col {
+  padding: 0 1rem 1.5rem 1rem;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.tfp_rounded_corners_main {
+  border: none;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.tfp_rounded_corners_image:hover .tfp_rounded_corners_image_overlay {
+  opacity: 0.25;
+}
+
+.tfp_rounded_corners_image_aspect_ratio_box {
+  border-radius: 6%;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.tfp_rounded_corners_title {
+  text-align: center;
+  margin: 20px 0px 0px 0px;
+}
+
+.tfp_rounded_corners_title:after {
+  display: block;
+  height: 8pt;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.tfp_rounded_corners_field {
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+}
+
+.tfp_rounded_corners_excerpt {
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+}
+
+.ttfp_rounded_corners_excerpt:after {
+  display: block;
+  height: 8pt;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.tfp_rounded_corners_author {
+  font-size: 9pt;
+  line-height: 10pt;
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+}
+
+.tfp_rounded_corners_date {
+  font-size: 9pt;
+  line-height: 10pt;
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+}
+
+/* --- THE FUTURE POSTS --- THEME: tfp_rounded_corners -------------- end --- */
+
+
+
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+
+
+
+/* --- THE FUTURE POSTS --- THEME: tfp_circles -------------------- start --- */
+
+.tfp_circles_gl-col {
+  padding: 0 1rem 1.5rem 1rem;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.tfp_circles_main {
+  border: none;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.tfp_circles_image:hover .tfp_circles_image_overlay {
+  opacity: 0.25;
+}
+
+.tfp_circles_image_aspect_ratio_box {
+  border-radius: 50%;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.tfp_circles_title {
+  text-align: center;
+  margin: 20px 0px 0px 0px;
+}
+
+.tfp_circles_title:after {
+  display: block;
+  height: 8pt;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.tfp_circles_field {
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+}
+
+.tfp_circles_excerpt {
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+}
+
+.ttfp_circles_excerpt:after {
+  display: block;
+  height: 8pt;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.tfp_circles_author {
+  font-size: 9pt;
+  line-height: 10pt;
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+}
+
+.tfp_circles_date {
+  font-size: 9pt;
+  line-height: 10pt;
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+}
+
+/* --- THE FUTURE POSTS --- THEME: tfp_circles ---------------------- end --- */
+
+
+
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+
+

@@ -1,0 +1,69 @@
+=== The Future Posts ===
+Contributors: jdalmeida
+Author: Jos&eacute De Almeida
+Author URI: https://www.josedealmeida.com/
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YPL25DBZSWHWY
+Tags: posts, post grid, responsive, scheduled, pods, advanced custom fields, woocommerce, elementor, beaver builder, visual composer
+Requires at least: 4.6.0
+Tested up to: 4.9.6
+Requires PHP: 5.6.0
+License: GPLv3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+== Frequently Asked Questions ==
+
+= Which grid system is used? =
+
+Gridlex. A very simple, lightweight, fast, reliable and responsive CSS-only grid system, supported by media queries, to quickly create modern layouts. Based on Flexbox (CSS Flexible Box Layout Module).
+
+Copyright &copy; 2016 by Laurent G. / <a href='http://gridlex.devlint.fr/' target='_blank'>http://gridlex.devlint.fr/</a>
+
+= Can I use it on WordPress text editor? =
+
+Yes. You can use The Future Posts shortcodes on any page or post using the WordPress text editor. Just insert the shortcode where you want the The Future Posts grid to appear. You can insert multiple instances of The Future Posts on the same page or post, each one with its own specific settings.
+
+= Can I use it on Widgets and Sidebars? =
+
+Yes. You can use The Future Posts shortcodes on sidebars and widget areas like footers. On the Appearance / Widgets admin page just use the Text widget or the Custom HTML widget to insert the shortcode(s).
+
+= Can I use it on Page Builders? =
+
+Yes. As being a shortcode, The Future Posts is compatible with virtually any page builder of your choice, like Beaver Builder, Divi Builder, Elementor, SiteOrigin, Thrive Architect, WPBakery / Visual Composer, etc. Refer to the Options page for details.
+
+= Can I make my own custom Theme? =
+
+Yes. You can create as many Themes as you want, and apply them to any instance of The Future Posts. Use the Custom Theme CSS sample, available on the Options page, to construct you own Themes. I do encourage Third Party Themes. Let me know if you have a great Custom Theme to share, perhaps it can be included on a future release. 
+
+= Can I show today's posts only? =
+
+Yes. For published only posts, use this shortcode:
+
+<code>[the_future_posts post_status="publish" date_before="today" date_after="today"]</code>
+
+And for simultaneous scheduled and published posts, use this shortcode:
+
+<code>[the_future_posts post_status="future,publish" date_before="today" date_after="today"]</code>
+
+= Is it compatible with The Future Is Now plugin? =
+
+Yes. Since The Future Is Now changes the post status of every scheduled post (from 'future' to 'publish'), you cannot use post_status='future' attribute (as there won't be any). So, you must use the post_status='publish' along with the 'date_after' attribute. like this:
+
+<code>[the_future_posts post_status="publish" date_after="now"]</code>
+
+= Does it features pretty permalinks on regular and custom post types (including WooCommerce)? =
+
+Yes. Right out of the box. Uses WordPress' Permalink Settings whatever they may be.
+
+= Does it features pretty permalinks on all posts status (including future posts)? =
+
+Yes. Say goodbye to 'http://the-future-posts.local/?p=123'. Say hello to 'http://the-future-posts.local/my-category/sample-post/'.
+
+= Allows showing non-published posts, like future posts (or whatever), even for non-logged anonymous users? =
+
+Yes. A must have, otherwise WordPress returns a 404 error unless you are a logged Administrator.
+
+= Can I change the default image overlay icon? =
+
+Yes. The Future Posts is bundled with a font featuring 150 well choosen image overlay related icons with great design. The default overlay icon, a thin plus sign, is part of that font. There are plenty of free icon pack fonts available on the internet. There is also some WordPress plugins that installs a bunch of well known icon packs, including Font Awesome. You can use any of those font packs and any font included. If you know how to do it you can even use your own font. 
+
+For more information, please refer to the WordPress' admin area, menu The Future Posts, sub-menu option 'Overlay icons'.
